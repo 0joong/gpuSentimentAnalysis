@@ -41,10 +41,10 @@ streamlit run app.py
 5. 패딩 (Padding): 모델에 입력하기 위해 모든 문장의 길이를 동일하게 맞춰주는 과정입니다. 정해진 최대 길이(max_len)보다 짧은 문장은 앞부분을 0으로 채웁니다.
 
 ### 모델 아키텍처
-본 프로젝트의 감성 분석 모델은 다음과 같은 구조로 설계되었습니다.
-Embedding Layer: 단어를 고차원의 벡터로 변환 (Embedding Dim: 200)
-Bidirectional LSTM Layer: 문장의 순방향 및 역방향 문맥 정보를 모두 학습 (Hidden Units: 128)
-Bidirectional LSTM Layer: 더 깊은 수준의 문맥 정보 추출 (Hidden Units: 128)
-Dropout Layer: 학습 과정에서 일부 뉴런을 비활성화하여 과적합 방지
-Dense Layer (ReLU): 비선형성을 추가하여 모델의 표현력 강화Dropout Layer: 추가적인 과적합 방지
-Dense Layer (Softmax): 최종적으로 '긍정', '부정', '중립' 각 클래스에 대한 확률을 출력
+본 프로젝트의 감성 분석 모델은 다음과 같은 구조로 설계되었습니다.   
+Embedding Layer: 단어를 고차원의 벡터로 변환 (Embedding Dim: 200)   
+Bidirectional LSTM Layer: 문장의 순방향 및 역방향 문맥 정보를 모두 학습 (Hidden Units: 128)   
+Bidirectional LSTM Layer: 더 깊은 수준의 문맥 정보 추출 (Hidden Units: 128)   
+Dropout Layer: 학습 과정에서 일부 뉴런을 비활성화하여 과적합 방지   
+Dense Layer (ReLU): 비선형성을 추가하여 모델의 표현력 강화Dropout Layer: 추가적인 과적합 방지   
+Dense Layer (Softmax): 최종적으로 '긍정', '부정', '중립' 각 클래스에 대한 확률을 출력   
