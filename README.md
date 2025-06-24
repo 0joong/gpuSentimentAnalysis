@@ -21,7 +21,7 @@ pip install pandas numpy scikit-learn tensorflow konlpy tqdm matplotlib seaborn
 ```
 streamlit run app.py
 ```
-3. 검색어 입력
+3. 검색어 입력   
 원하는 그래픽카드 제품명을 입력 후 하단의 버튼을 클릭합니다.
 
 ### 데이터 수집
@@ -46,5 +46,6 @@ Embedding Layer: 단어를 고차원의 벡터로 변환 (Embedding Dim: 200)
 Bidirectional LSTM Layer: 문장의 순방향 및 역방향 문맥 정보를 모두 학습 (Hidden Units: 128)   
 Bidirectional LSTM Layer: 더 깊은 수준의 문맥 정보 추출 (Hidden Units: 128)   
 Dropout Layer: 학습 과정에서 일부 뉴런을 비활성화하여 과적합 방지   
-Dense Layer (ReLU): 비선형성을 추가하여 모델의 표현력 강화Dropout Layer: 추가적인 과적합 방지   
+Dense Layer (ReLU): 비선형성을 추가하여 모델의 표현력 강화
+Dropout Layer: 추가적인 과적합 방지   
 Dense Layer (Softmax): 최종적으로 '긍정', '부정', '중립' 각 클래스에 대한 확률을 출력   
