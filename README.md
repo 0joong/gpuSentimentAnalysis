@@ -13,7 +13,7 @@
 ```
 ### 시작하기
 1. model.h5 다운로드   
-[model.h5 파일을 다운로드](https://google.com, "google link") 받은 후 프로젝트의 model 폴더에 넣어줍니다.
+[model.h5 파일을 다운로드]([https://google.com](https://drive.google.com/file/d/1KAfUj9jaF3n3B6gpc0moSTGZOxExTX9K/view?usp=drive_link), "google link") 받은 후 프로젝트의 model 폴더에 넣어줍니다.
 
 
 2. 환경 설정
